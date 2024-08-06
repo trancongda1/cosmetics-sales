@@ -22,9 +22,3 @@ Route::get('/client', function () {
 Route::get('/about', function () {
     return view('about');
 });
-
-// Đăng ký các route cho authentication
-Auth::routes();
-
-// Đăng ký route cho trang chủ
-Route::get('/home', [HomeController::class, 'index'])->name('home');
