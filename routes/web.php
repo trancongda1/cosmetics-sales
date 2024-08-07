@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
 
 Route::get('/', function () {
     return view('index');
@@ -23,8 +22,3 @@ Route::get('/about', function () {
     return view('about');
 });
 
-// Đăng ký các route cho authentication
-Auth::routes();
-
-// Đăng ký route cho trang chủ
-Route::get('/home', [HomeController::class, 'index'])->name('home');
