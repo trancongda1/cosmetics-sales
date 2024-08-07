@@ -35,23 +35,23 @@
    </head>
    <body>
       <!-- header section start -->
+      <!-- header section start -->
       <div class="header_section">
          <div class="container-fluid">
             <nav class="navbar navbar-light bg-light justify-content-between">
                <div id="mySidenav" class="sidenav">
-                  <div id="mySidenav" class="sidenav">
-                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                     <a href="/index">Home</a>
-                     <a href="/products">Products</a>
-                     <a href="/about">About</a>
-                     <a href="/client">Client</a>
-                     <a href="/contact">Contact</a>
-                  </div>
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="/">Home</a>
+                  <a href="/products">Products</a>
+                  <a href="/about">About</a>
+                  <a href="/client">Client</a>
+                  <a href="/contact">Contact</a>
+               </div>
                <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
-               <a class="logo" href="/index"><img src="images/logo.png"></a></a>
+               <a class="logo" href="/"><img src="images/logo.png"></a></a>
                <form class="form-inline ">
                   <div class="login_text">
-                   <ul>
+                    <ul>
                         <li><a href="/login"><img src="images/user-icon.png"></a></li>
                         <li><a href="#"><img src="images/bag-icon.png"></a></li>
                         <li><a href="#"><img src="images/search-icon.png"></a></li>
@@ -85,7 +85,7 @@
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
-            <div class="footer_logo"><a href="/index"><img src="images/footer-logo.png"></a></div>
+            <div class="footer_logo"><a href="/"><img src="images/footer-logo.png"></a></div>
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-sm-4">
@@ -111,7 +111,7 @@
                      </div>
                   </div>
                   <div class="col-sm-4">
-                     <div class="footer_logo_1"><a href="/index"><img src="images/footer-logo.png"></a></div>
+                     <div class="footer_logo_1"><a href="/"><img src="images/footer-logo.png"></a></div>
                      <p class="dummy_text">Dưỡng da hoàn hảo, chăm sóc sắc đẹp toàn diện - Khám phá vẻ đẹp tiềm ẩn và tự tin tỏa sáng mỗi ngày cùng mỹ phẩm cao cấp Như Quỳnh, bí quyết cho làn da rạng</p>
                   </div>
                   <div class="col-sm-4">

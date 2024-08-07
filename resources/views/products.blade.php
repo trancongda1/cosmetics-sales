@@ -284,7 +284,7 @@
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
-            <div class="footer_logo"><a href="/index"><img src="images/footer-logo.png"></a></div>
+            <div class="footer_logo"><a href="/"><img src="images/footer-logo.png"></a></div>
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-sm-4">
