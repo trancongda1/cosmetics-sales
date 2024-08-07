@@ -41,7 +41,7 @@
             <nav class="navbar navbar-light bg-light justify-content-between">
                <div id="mySidenav" class="sidenav">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <a href="/index">Home</a>
+                  <a href="/">Home</a>
                   <a href="/products">Products</a>
                   <a href="/about">About</a>
                   <a href="/client">Client</a>
